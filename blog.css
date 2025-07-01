@@ -1,0 +1,178 @@
+.fundo1 {
+    overflow-y: scroll;
+    overflow: overlay;
+    overflow-x: hidden;
+}
+
+.fundo1::-webkit-scrollbar {
+    width: 15px;
+}
+
+.fundo1::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    border-radius: 1000px;
+}
+
+.fundo1::-webkit-scrollbar-track {
+
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.grid {
+    width: 100%;
+    height: 115vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 3fr 1fr 1fr 2fr 1fr 1fr 3fr;
+    gap: 9.5px;
+}
+
+.grid>div {
+    background-size: cover;
+    position: relative;
+}
+
+.um {
+    background-image: url(Fone_Blog.jpg);
+}
+
+.dois {
+    background-image: url(Doce_Blog.jpg);
+}
+
+.tres {
+    background-image: url(Mãos_Blog.jpg);
+}
+
+.quatro {
+    background-image: url(AltoFalante_Blog.jpg);
+}
+
+.cinco {
+    background-image: url(Fazendeiro_Blog.jpg);
+}
+
+.seis {
+    background-image: url(Calango_Blog.jpg);
+}
+
+.sete {
+    background-image: url(Chapeu_Blog.jpg);
+}
+
+.oito {
+    background-image: url(Cabana_Blog.jpg);
+}
+
+.nove {
+    background-image: url(Salvador_Blog.jpg);
+}
+
+.des {
+    background-image: url(Cao_Blog.jpg);
+}
+
+.onze {
+    background-image: url(Praia_Blog.jpg);
+}
+
+.doze {
+    background-image: url(Laranja_Blog.jpg);
+}
+
+.treze {
+    background-image: url(Batom_Blog.jpg);
+}
+
+.quatorze {
+    background-image: url(Yorgute_Blog.jpg);
+}
+
+.quize {
+    background-image: url(Roxo_Blog.jpg);
+}
+
+.um,
+.dois,
+.cinco,
+.sete,
+.oito,
+.dose,
+.tres {
+    grid-row: span 3;
+}
+
+.quatro,
+.nove,
+.seis,
+.des,
+.onze,
+.quize {
+    grid-row: span 2;
+}
+
+.sombra {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8211659664) 0%, rgba(0, 0, 0, 0) 40%);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.autorTexto {
+    position: absolute;
+    left: 8.5%;
+    bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.autorTexto img {
+    border-radius: 50%;
+}
+
+.btnPeople {
+    position: absolute;
+    left: 8.5%;
+    top: 25px;
+    position: absolute;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 4px 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #2916e0;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    background: #fff;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+}
+
+.autorTexto h1 {
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+}
+
+.autorTexto h6 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.6;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid>div:hover .sombra {
+    opacity: 1;
+    transition: 0.5s;
+}

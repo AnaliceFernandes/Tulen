@@ -1,0 +1,66 @@
+*{ margin: 0;
+    box-sizing: border-box;}
+
+
+    body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    overflow: hidden;}
+   
+    .menu {
+    width: 100%;
+    height: 90px;
+    padding-top: 23px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    background: #0f0f0f;
+    }
+
+
+    .redes{
+      height: 700px;
+      width: 90px;
+      background-color: rgb(231, 238, 238);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+
+    #face{
+      font-family: 'themify';
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none;
+      line-height: 1;
+    }
+
+
+    #twiter{
+      font-family: 'themify';
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none;
+      line-height: 1;
+    }
+
+
+    #in{
+      font-family: 'themify';
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none;
+      line-height: 1;
+    }
+
+
+    #insta{
+      font-family: 'themify';
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none;
+      line-height: 1;
+    }
